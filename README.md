@@ -22,6 +22,9 @@ iii. if x $\succ$ y $\succsim$ z, then x $\succ$ z.
 Proof 1: Let x $\succ$ y $\succsim$ z. Since $\succsim$ is transitive, it's known that x $\succsim$ y $\succsim$ z, but since x $\succ$ y, x $\succ$ z!
 
 2)
-i. Show that $\succsim$ is 
+i. Show that $\succsim$ is transitive
+
+Proof: Let $(x_1,x_2)\precsim (y_1,y_2)$ and $(y_1,y_2)\precsim (z_1,z_2)$. Since $(x_1,x_2)\precsim (y_1,y_2)$ then $x_1 > y_1$ or $x_1 = y_1$ and $x_2 \geq y_2$. 
+Since $(y_1,y_2)\precsim (z_1,z_2)$ then $y_1 > z_1$ or $y_1 = z_1$ and $y_2 \geq z_2$. Thus $x_1 > z_1$ or $x_1 = z_1$ and $x_2 \geq z_2$ and thus $(x_1,x_2)\precsim (z_1,z_2)$!
 
 
